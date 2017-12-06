@@ -1,3 +1,5 @@
 set(TEST_GIT_REPO https://github.com/OpenCMISS-Examples/burgers_static.git)
 set(TEST_BRANCH develop)
 set(TEST_TARGETS burgers_static_fortran)
+set(TEST_MULTI_PROCESS TRUE)
+set(TEST_NP 2)
